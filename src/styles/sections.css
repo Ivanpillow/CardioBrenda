@@ -135,7 +135,7 @@
 }
 
 .footer .logo-frame img {
-  transform: scale(4.6);
+  transform: none;
 }
 
 .footer strong {

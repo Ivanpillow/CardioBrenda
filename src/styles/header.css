@@ -25,13 +25,13 @@
 }
 
 .brand .logo-frame {
-  width: 48px;
-  height: 48px;
-  border-radius: var(--radius);
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
 }
 
 .brand .logo-frame img {
-  transform: scale(3.5);
+  transform: none;
 }
 
 .menu-button {
@@ -301,8 +301,8 @@
 
 @media (max-width: 420px) {
   .brand .logo-frame {
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
   }
 
   .brand-text strong {

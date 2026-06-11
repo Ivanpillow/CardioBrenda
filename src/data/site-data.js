@@ -134,8 +134,8 @@
   window.CardioData = {
     basePath,
     assets: {
-      logoSmall: asset("Assets/LogoPequeño.svg"),
-      logoMark: asset("Assets/Logo3.svg"),
+      logoSmall: asset("Assets/LogoHeaderMark.png"),
+      logoMark: asset("Assets/LogoMarkHero.png"),
       hero: asset("Assets/hero-cardiology.png")
     },
     pages: {

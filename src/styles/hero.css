@@ -109,14 +109,14 @@
 }
 
 .hero__logo-frame {
-  width: min(100%, 290px);
-  height: 150px;
+  width: min(100%, 360px);
+  height: 128px;
   margin: 0 auto;
   border-radius: var(--radius);
 }
 
 .hero__logo-frame img {
-  transform: scale(3.4);
+  transform: none;
 }
 
 .appointment-panel {
@@ -156,6 +156,11 @@
   .hero__summary {
     min-height: 430px;
     padding: 24px;
+  }
+
+  .hero__logo-frame {
+    width: min(100%, 380px);
+    height: 136px;
   }
 }
 
