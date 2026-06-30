@@ -136,7 +136,9 @@
     assets: {
       logoSmall: asset("Assets/LogoHeaderMark.png"),
       logoMark: asset("Assets/LogoMarkHero.png"),
-      hero: asset("Assets/hero-cardiology.png")
+      hero: asset("Assets/hero-cardiology.png"),
+      heroMobile: asset("Assets/hero-brenda-mobile.jpeg"),
+      heroVideo: asset("Assets/videoDoctoraHero.mp4")
     },
     pages: {
       home: page("index.html")

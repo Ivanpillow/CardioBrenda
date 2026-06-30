@@ -6,7 +6,27 @@
     const links = window.CardioLinks;
     return `
       <section class="hero" id="inicio">
-        <img class="hero__background" src="${data.assets.hero}" alt="" aria-hidden="true">
+        <picture class="hero__background hero__background--image" aria-hidden="true">
+          <source media="(max-width: 759px)" srcset="${data.assets.heroMobile}">
+          <img src="${data.assets.hero}" alt="">
+        </picture>
+        <video
+          class="hero__background hero__background--video"
+          data-hero-video
+          data-hero-video-start="33"
+          data-hero-video-end="45"
+          muted
+          autoplay
+          playsinline
+          preload="metadata"
+          aria-hidden="true"
+        >
+          <source src="${data.assets.heroVideo}#t=33" type="video/mp4">
+        </video>
+        <button class="hero__audio-toggle is-muted" type="button" data-hero-audio-toggle aria-label="Activar audio del video" aria-pressed="false">
+          <span class="hero__audio-icon hero__audio-icon--muted">${icon("volume-x")}</span>
+          <span class="hero__audio-icon hero__audio-icon--sound">${icon("volume-2")}</span>
+        </button>
         <div class="hero__inner">
           <div class="hero__copy reveal">
             <p class="section-kicker">Cardiología Clínica en CDMX</p>
