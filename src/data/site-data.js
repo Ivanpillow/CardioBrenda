@@ -10,7 +10,7 @@
       short: "Servicio principal",
       icon: "heart-pulse",
       image: asset("Assets/hero-cardiology.png"),
-      page: page("servicios/valoracion-cardiologica.html"),
+      page: page("servicios/valoracion-cardiologica"),
       summary: "Consulta integral para entender síntomas, antecedentes, factores de riesgo y próximos pasos.",
       description:
         "La valoración cardiológica permite revisar el estado general del corazón, identificar factores de riesgo y definir si se requieren estudios adicionales. Es útil ante dolor torácico, falta de aire, palpitaciones, presión alta o como prevención.",
@@ -35,7 +35,7 @@
       short: "Registro eléctrico del corazón",
       icon: "activity",
       image: asset("Assets/services/electrocardiograma.png"),
-      page: page("servicios/electrocardiograma.html"),
+      page: page("servicios/electrocardiograma"),
       summary: "Estudio rápido que registra la actividad eléctrica del corazón como apoyo diagnóstico.",
       description:
         "El electrocardiograma registra señales eléctricas del corazón mediante electrodos colocados en el cuerpo. Puede ayudar a detectar alteraciones del ritmo, datos de crecimiento de cavidades o señales que requieren mayor evaluación.",
@@ -60,7 +60,7 @@
       short: "Respuesta cardiovascular al ejercicio",
       icon: "activity",
       image: asset("Assets/services/prueba-esfuerzo.png"),
-      page: page("servicios/prueba-de-esfuerzo.html"),
+      page: page("servicios/prueba-de-esfuerzo"),
       summary: "Evaluación supervisada de la respuesta del corazón durante actividad física controlada.",
       description:
         "La prueba de esfuerzo observa cómo responde el corazón durante ejercicio progresivo. Se utiliza para valorar síntomas con el esfuerzo, capacidad funcional y datos que puedan orientar sobre enfermedad coronaria u otras condiciones.",
@@ -85,7 +85,7 @@
       short: "Ritmo cardiaco durante el día",
       icon: "clock",
       image: asset("Assets/services/monitoreo-holter.png"),
-      page: page("servicios/monitoreo-holter.html"),
+      page: page("servicios/monitoreo-holter"),
       summary: "Registro prolongado del ritmo cardiaco durante actividades cotidianas.",
       description:
         "El Holter es un monitor portátil que registra el ritmo cardiaco durante un periodo prolongado. Es útil cuando los síntomas aparecen de forma intermitente, como palpitaciones, mareos o sensación de latidos irregulares.",
@@ -110,7 +110,7 @@
       short: "Presión arterial en distintas horas",
       icon: "shield",
       image: asset("Assets/services/mapa.png"),
-      page: page("servicios/monitoreo-ambulatorio-presion-arterial.html"),
+      page: page("servicios/monitoreo-ambulatorio-presion-arterial"),
       summary: "Mediciones programadas para conocer el comportamiento real de la presión arterial.",
       description:
         "El monitoreo ambulatorio de presión arterial registra mediciones durante el día y la noche. Ayuda a evaluar hipertensión, variaciones de presión y respuesta a tratamiento en un contexto más cercano a la vida diaria.",
@@ -141,7 +141,7 @@
       heroVideo: asset("Assets/videoDoctoraHero.mp4")
     },
     pages: {
-      home: page("index.html")
+      home: page("")
     },
     contact: {
       email: "brendahm7@gmail.com",

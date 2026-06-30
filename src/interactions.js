@@ -4,6 +4,22 @@
     element.inert = isInert;
   };
 
+  const cleanCurrentUrl = () => {
+    if (!window.history?.replaceState) return;
+
+    const { pathname, search, hash } = window.location;
+    let cleanPath = pathname;
+
+    if (cleanPath.endsWith("/index.html")) {
+      cleanPath = cleanPath.slice(0, -"index.html".length);
+    } else if (cleanPath.endsWith(".html")) {
+      cleanPath = cleanPath.slice(0, -".html".length);
+    }
+
+    if (cleanPath === pathname) return;
+    window.history.replaceState(null, document.title, `${cleanPath}${search}${hash}`);
+  };
+
   const closeMenu = () => {
     const menuButton = document.querySelector("[data-menu-button]");
     const nav = document.querySelector("[data-nav]");
@@ -134,6 +150,7 @@
 
       setInert(contactPanel, true);
       setInert(servicesMenu, true);
+      cleanCurrentUrl();
       initHeroVideo();
 
       menuButton?.addEventListener("click", () => {
