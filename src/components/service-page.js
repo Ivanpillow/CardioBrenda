@@ -16,6 +16,16 @@
         `
       )
       .join("");
+    const prices = (service.prices || [])
+      .map(
+        (price) => `
+          <div class="service-price__item">
+            <span>${price.label}</span>
+            <strong>${price.value}</strong>
+          </div>
+        `
+      )
+      .join("");
     const otherServices = window.CardioData.services
       .filter((item) => item.id !== service.id)
       .map((item) => `<a href="${item.page}">${item.title}</a>`)
@@ -33,6 +43,14 @@
               <p class="section-kicker">Servicio de cardiología</p>
               <h1 class="service-hero__title${titleClass}">${service.title}</h1>
               <p>${service.description}</p>
+              ${
+                prices
+                  ? `<div class="service-price" aria-label="Precio del servicio">
+                      <span class="service-price__label">Precio</span>
+                      <div class="service-price__items">${prices}</div>
+                    </div>`
+                  : ""
+              }
               <div class="service-actions">
                 <a class="button button--whatsapp" href="${links.whatsapp(whatsAppMessage)}" target="_blank" rel="noopener">
                   ${icon("whatsapp", "icon icon--brand icon--small")}

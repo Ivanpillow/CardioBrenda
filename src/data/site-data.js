@@ -12,6 +12,10 @@
       image: asset("Assets/hero-cardiology.png"),
       page: page("servicios/valoracion-cardiologica"),
       summary: "Consulta integral para entender síntomas, antecedentes, factores de riesgo y próximos pasos.",
+      prices: [
+        { label: "Consulta primera vez", value: "1,400" },
+        { label: "Consulta subsecuente", value: "1,000" }
+      ],
       description:
         "La valoración cardiológica permite revisar el estado general del corazón, identificar factores de riesgo y definir si se requieren estudios adicionales. Es útil ante dolor torácico, falta de aire, palpitaciones, presión alta o como prevención.",
       detailCards: [
@@ -30,6 +34,32 @@
       ]
     },
     {
+      id: "ecocardiograma",
+      title: "Ecocardiograma",
+      short: "Valoración por ultrasonido",
+      icon: "heart-pulse",
+      image: asset("Assets/services/ecocardiograma.jpg"),
+      page: page("servicios/ecocardiograma"),
+      summary: "Permite valorar soplos, alteraciones en las válvulas y la función del corazón.",
+      prices: [{ label: "Ecocardiograma", value: "2,800" }],
+      description:
+        "Permite valorar soplos, detectar alteraciones en las válvulas del corazón, conocer la función del corazón, saber si existe insuficiencia cardiaca o daño posterior a un infarto.",
+      detailCards: [
+        {
+          title: "Qué permite valorar",
+          body: "Soplos y alteraciones en las válvulas del corazón."
+        },
+        {
+          title: "Función del corazón",
+          body: "La función del corazón y la presencia de insuficiencia cardiaca."
+        },
+        {
+          title: "Daño posterior a un infarto",
+          body: "Puede ayudar a identificar daño posterior a un infarto."
+        }
+      ]
+    },
+    {
       id: "electrocardiograma",
       title: "Electrocardiograma",
       short: "Registro eléctrico del corazón",
@@ -37,6 +67,7 @@
       image: asset("Assets/services/electrocardiograma.png"),
       page: page("servicios/electrocardiograma"),
       summary: "Estudio rápido que registra la actividad eléctrica del corazón como apoyo diagnóstico.",
+      prices: [{ label: "Electrocardiograma", value: "350" }],
       description:
         "El electrocardiograma registra señales eléctricas del corazón mediante electrodos colocados en el cuerpo. Puede ayudar a detectar alteraciones del ritmo, datos de crecimiento de cavidades o señales que requieren mayor evaluación.",
       detailCards: [
@@ -62,6 +93,7 @@
       image: asset("Assets/services/prueba-esfuerzo.png"),
       page: page("servicios/prueba-de-esfuerzo"),
       summary: "Evaluación supervisada de la respuesta del corazón durante actividad física controlada.",
+      prices: [{ label: "Prueba de esfuerzo", value: "2,500" }],
       description:
         "La prueba de esfuerzo observa cómo responde el corazón durante ejercicio progresivo. Se utiliza para valorar síntomas con el esfuerzo, capacidad funcional y datos que puedan orientar sobre enfermedad coronaria u otras condiciones.",
       detailCards: [
@@ -87,6 +119,7 @@
       image: asset("Assets/services/monitoreo-holter.png"),
       page: page("servicios/monitoreo-holter"),
       summary: "Registro prolongado del ritmo cardiaco durante actividades cotidianas.",
+      prices: [{ label: "Holter", value: "2,300" }],
       description:
         "El Holter es un monitor portátil que registra el ritmo cardiaco durante un periodo prolongado. Es útil cuando los síntomas aparecen de forma intermitente, como palpitaciones, mareos o sensación de latidos irregulares.",
       detailCards: [
@@ -112,6 +145,7 @@
       image: asset("Assets/services/mapa.png"),
       page: page("servicios/monitoreo-ambulatorio-presion-arterial"),
       summary: "Mediciones programadas para conocer el comportamiento real de la presión arterial.",
+      prices: [{ label: "MAPA", value: "2,200" }],
       description:
         "El monitoreo ambulatorio de presión arterial registra mediciones durante el día y la noche. Ayuda a evaluar hipertensión, variaciones de presión y respuesta a tratamiento en un contexto más cercano a la vida diaria.",
       detailCards: [
@@ -128,6 +162,18 @@
           body: "Aporta información que una sola toma en consultorio no siempre muestra."
         }
       ]
+    },
+    {
+      id: "valoracion-preoperatoria",
+      title: "Valoración preoperatoria",
+      short: "Servicio de cardiología",
+      icon: "heart-pulse",
+      image: asset("Assets/services/valoracion-preoperatoria.jpg"),
+      page: page("servicios/valoracion-preoperatoria"),
+      summary: "Información sobre la valoración preoperatoria.",
+      prices: [{ label: "Valoración preoperatoria", value: "1,200" }],
+      description: "Información sobre la valoración preoperatoria.",
+      detailCards: []
     }
   ];
 

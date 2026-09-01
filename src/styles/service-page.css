@@ -56,6 +56,48 @@
   max-width: 560px;
 }
 
+.service-price {
+  display: grid;
+  gap: 7px;
+  margin-top: 18px;
+}
+
+.service-price__label {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.service-price__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.service-price__item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 8px 10px;
+  box-shadow: 0 10px 24px rgba(24, 71, 103, 0.08);
+}
+
+.service-price__item span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.service-price__item strong {
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+}
+
 .service-detail {
   padding: 10px 0 58px;
 }
