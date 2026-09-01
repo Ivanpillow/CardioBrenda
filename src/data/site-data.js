@@ -148,11 +148,11 @@
       phone: "3332008763",
       displayPhone: "333 200 8763",
       whatsappPhone: "523332008763",
-      address: "Montecito 38, Piso 20, Oficina 19. Nápoles, Benito Juárez, 03810, Ciudad de México.",
+      address: "Montecito 38. Nápoles, Benito Juárez, 03810, Ciudad de México.",
       shortAddress: "Montecito 38, Nápoles",
       weekdays: "Lunes a viernes: 8:00 a.m. a 12:00 p.m.",
       weekend: "Sábados y domingos: 9:00 a.m. a 6:00 p.m.",
-      credentials: "Cédula profesional 12205940. Cédula de especialidad 15556942. UNAM."
+      credentials: "Cédula profesional 12205940. Cédula de especialidad 15556942. UNAM. Avalada por el Consejo Mexicano de Cardiología."
     },
     services
   };

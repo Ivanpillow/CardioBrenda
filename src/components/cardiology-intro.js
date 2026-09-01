@@ -11,7 +11,7 @@
           <div class="intro-list">
             <article class="reveal">
               <h3>Enfermedades frecuentes</h3>
-              <p>Hipertensión, arritmias, dolor torácico, enfermedad coronaria, insuficiencia cardiaca y factores de riesgo cardiovascular.</p>
+              <p>Hipertensión, palpitaciones, dislipidemia, arritmias, dolor torácico, enfermedad coronaria, insuficiencia cardiaca y factores de riesgo cardiovascular.</p>
             </article>
             <article class="reveal">
               <h3>Prevención</h3>

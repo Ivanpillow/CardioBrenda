@@ -19,7 +19,7 @@
             <article class="info-card reveal">
               ${icon("heart-pulse", "icon card-icon")}
               <h3>Cardiología Clínica</h3>
-              <p>Valoración cardiológica como servicio principal y ruta clara de estudios cuando se requieren.</p>
+              <p>Es una valoración cardiovascular integral, con una explicación clara y empática sobre el problema estudiado y el proceso a seguir en caso de requerir más estudios.</p>
             </article>
             <article class="info-card reveal">
               ${icon("map-pin", "icon card-icon")}

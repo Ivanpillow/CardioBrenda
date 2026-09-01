@@ -31,7 +31,7 @@
           <div class="hero__copy reveal">
             <p class="section-kicker">Cardiología Clínica en CDMX</p>
             <h1>Dra. Brenda Muñoz</h1>
-            <p class="hero__lead">Atención cardiológica clara, profesional y cercana para cuidar tu salud cardiovascular.</p>
+            <p class="hero__lead">Atención integral con una valoración clara, profesional y detallada para cuidar tu salud cardiovascular.</p>
             <div class="hero__actions" aria-label="Acciones principales">
               <a class="button button--whatsapp" href="${links.whatsapp()}" target="_blank" rel="noopener">
                 ${icon("whatsapp", "icon icon--brand icon--small")}
@@ -65,7 +65,7 @@
             <div class="appointment-panel">
               <div>
                 <span>Consulta en Nápoles</span>
-                <strong>Montecito 38, Piso 20</strong>
+                <strong>Montecito 38, Nápoles</strong>
               </div>
               <div>
                 <span>Horarios</span>
