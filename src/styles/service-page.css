@@ -93,9 +93,19 @@
   font-weight: 600;
 }
 
-.service-price__item strong {
+.service-price__amount {
   color: var(--accent-strong);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 3px;
   font-size: 0.9rem;
+}
+
+.service-price__amount small {
+  color: var(--muted);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
 }
 
 .service-detail {

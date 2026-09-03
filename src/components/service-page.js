@@ -21,7 +21,7 @@
         (price) => `
           <div class="service-price__item">
             <span>${price.label}</span>
-            <strong>${price.value}</strong>
+            <strong class="service-price__amount"><span>$</span>${price.value}<small>MXN</small></strong>
           </div>
         `
       )

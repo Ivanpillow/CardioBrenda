@@ -13,7 +13,7 @@
       page: page("servicios/valoracion-cardiologica"),
       summary: "Consulta integral para entender síntomas, antecedentes, factores de riesgo y próximos pasos.",
       prices: [
-        { label: "Consulta primera vez", value: "1,400" },
+        { label: "Consulta primera vez", value: "1,300" },
         { label: "Consulta subsecuente", value: "1,000" }
       ],
       description:
@@ -41,7 +41,7 @@
       image: asset("Assets/services/ecocardiograma.jpg"),
       page: page("servicios/ecocardiograma"),
       summary: "Permite valorar soplos, alteraciones en las válvulas y la función del corazón.",
-      prices: [{ label: "Ecocardiograma", value: "2,800" }],
+      prices: [{ label: "Ecocardiograma", value: "3,000" }],
       description:
         "Permite valorar soplos, detectar alteraciones en las válvulas del corazón, conocer la función del corazón, saber si existe insuficiencia cardiaca o daño posterior a un infarto.",
       detailCards: [
