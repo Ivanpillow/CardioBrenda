@@ -109,8 +109,6 @@
 
   .hero__background--video {
     display: block;
-    transform: scale(1.45);
-    transform-origin: top left;
   }
 
   .hero__audio-toggle {

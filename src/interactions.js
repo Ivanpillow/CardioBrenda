@@ -100,32 +100,6 @@
     const toggle = document.querySelector("[data-hero-audio-toggle]");
     if (!video) return;
 
-    const start = Number(video.dataset.heroVideoStart || 33);
-    const end = Number(video.dataset.heroVideoEnd || 45);
-    let isSeeking = false;
-
-    const seekToStart = () => {
-      if (!Number.isFinite(video.duration) || video.duration <= start) return;
-      isSeeking = true;
-      video.currentTime = start;
-      isSeeking = false;
-    };
-
-    const playFromSegment = () => {
-      if (video.currentTime < start || video.currentTime >= end) {
-        seekToStart();
-      }
-      video.play?.().catch(() => {});
-    };
-
-    video.addEventListener("loadedmetadata", playFromSegment, { once: true });
-    video.addEventListener("timeupdate", () => {
-      if (isSeeking || video.currentTime < end) return;
-      seekToStart();
-      video.play?.().catch(() => {});
-    });
-    video.addEventListener("ended", playFromSegment);
-
     toggle?.addEventListener("click", () => {
       const shouldUnmute = video.muted;
       video.muted = !shouldUnmute;
@@ -135,7 +109,7 @@
         "aria-label",
         shouldUnmute ? "Silenciar video" : "Activar audio del video"
       );
-      playFromSegment();
+      video.play?.().catch(() => {});
     });
   };
 
